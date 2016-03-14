@@ -12,8 +12,8 @@ public class TodoResource {
   @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
   public Todo getXML() {
     Todo todo = new Todo();
-    todo.setSummary("This is my first todo");
-    todo.setDescription("This is my first todo");
+    todo.setSummary("This is my 1st todo");
+    todo.setDescription("This is my 1st todo");
     return todo;
   }
   
@@ -22,8 +22,8 @@ public class TodoResource {
   @Produces({ MediaType.TEXT_XML })
   public Todo getHTML() {
     Todo todo = new Todo();
-    todo.setSummary("This is my first todo");
-    todo.setDescription("This is my first todo");
+    todo.setSummary("This is my 1st todo");
+    todo.setDescription("This is my 1st todo");
     return todo;
   }
 
